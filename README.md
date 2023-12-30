@@ -20,10 +20,10 @@ pip install -y -r requirements.txt
 ```
 
 ## botアカウントの作成・トークンの設定
-以下のページに従って作成するbotのアカウントを作成し、tokenをコピーしておいてください  
-[Botアカウント作成](https://discordpy.readthedocs.io/ja/latest/discord.html)
-同リポジトリ内、`.env.example`をコピーし、`.env`という名前に変更します  
-その後、`TOKEN`にコピーしておいたtokenを設定します
+- [Botアカウント作成](https://discordpy.readthedocs.io/ja/latest/discord.html)ページを参考に、Botアカウントを作成します
+- Botごとにtokenが発行されるので、コピーします
+- 同リポジトリ内、`.env.example`をコピーし、`.env`という名前に変更します
+- `.env`内、`TOKEN`にコピーしておいたtokenを設定します
 
 # botの構築
 環境構築が完了次第、botの構築に取り掛かります
